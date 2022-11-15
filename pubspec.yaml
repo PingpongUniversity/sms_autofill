@@ -18,10 +18,3 @@ environment:
   flutter: ">=2.0.0"
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: university.unication.sms_autofill
-        pluginClass: OTPPlugin.kt
-      ios:
-        pluginClass: OTPPlugin
