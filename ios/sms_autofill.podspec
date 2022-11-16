@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/PingpongUniversity/sms_autofill.git", :commit => "d3fa1b87d8f39b45221670e8904a0847976b194a" }
+  spec.source       = { :git => "https://github.com/PingpongUniversity/sms_autofill.git", :commit => "5be7aae97bacde8ce072e5ab52bdfda75bed7458" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
