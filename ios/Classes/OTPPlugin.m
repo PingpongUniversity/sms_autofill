@@ -1,11 +1,11 @@
 #import "SmsAutoFillPlugin.h"
 
-@implementation SmsAutoFillPlugin
+@implementation OTPPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
       methodChannelWithName:@"sms_autofill_channel"
             binaryMessenger:[registrar messenger]];
-  SmsAutoFillPlugin* instance = [[SmsAutoFillPlugin alloc] init];
+  OTPPlugin* instance = [[OTPPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 
