@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://example.com'
   s.license          = 'MIT'
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :git => 'https://github.com/PingpongUniversity/sms_autofill.git',:tag => '1.0.0' }
+  s.source           = { :git => 'https://github.com/PingpongUniversity/sms_autofill.git',:tag => '1.0.1' }
   s.source_files = 'ios/Classes/**'
   s.public_header_files = 'ios/Classes/**.h'
   s.dependency 'Flutter'
