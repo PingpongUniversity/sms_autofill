@@ -23,5 +23,3 @@ flutter:
       android:
         package: university.unication.sms_autofill
         pluginClass: OTPPlugin
-      ios:
-        pluginClass: OTPPlugin
