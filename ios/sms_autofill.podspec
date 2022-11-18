@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Pingpong Mobile" => "ahmet.oktay@pingpong.university" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/PingpongUniversity/sms_autofill.git"}
-  spec.source_files = 'ios/Classes/*'
+  spec.source_files = 'ios/Classes/*{.h,.a,.swift,.mm,.m,.hpp}'
   spec.public_header_files = "ios/Classes/*.h"
   spec.swift_versions = ["5.0", "5.1", "5.2", "5.3"]
   spec.dependency 'Flutter'
