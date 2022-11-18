@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'Flutter plugin to provide SMS code autofill support'
   s.description      = <<-DESC
-  SMS Autofill ozelligini desteklemek icin olusturulmus bir pakettir.
+  SMS Autofill ozelligini desteklemek icin olusturulmus bir pakettir
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = 'MIT'
