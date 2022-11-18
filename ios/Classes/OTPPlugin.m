@@ -1,4 +1,4 @@
-#import "SmsAutoFillPlugin.h"
+#import "OTPPlugin.h"
 
 @implementation OTPPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
